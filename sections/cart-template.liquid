@@ -28,6 +28,9 @@
                     <div class="list-view-item__title">
                       <a href="{{ item.url }}" class="cart__product-title" data-cart-item-title data-role="product-title">
                         {{ item.product.title }}
+                        {% if forloop.first %}
+                          {{ item.product.tags }}
+                        {% endif %}
                       </a>
                     </div>
 
