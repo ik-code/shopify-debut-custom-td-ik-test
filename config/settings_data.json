@@ -218,6 +218,24 @@
           "enable_image_zoom": true,
           "enable_video_looping": false
         }
+      },
+      "16550394805051cc61": {
+        "type": "liquid-basics",
+        "blocks": {
+          "86164ef5-c329-4184-bbdd-61f7f37cae69": {
+            "type": "text",
+            "settings": {
+              "block-text": "<p>som text for this picture<\/p>",
+              "image": "shopify:\/\/shop_images\/collection-men-3.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "86164ef5-c329-4184-bbdd-61f7f37cae69"
+        ],
+        "settings": {
+          "title": "Title for this block"
+        }
       }
     },
     "content_for_index": [
@@ -228,7 +246,8 @@
       "hero-2",
       "quotes",
       "image-bar",
-      "1654948376c98b4c7d"
+      "1654948376c98b4c7d",
+      "16550394805051cc61"
     ]
   },
   "presets": {
