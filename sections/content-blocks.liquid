@@ -1,0 +1,52 @@
+
+{% for block in section.blocks %}
+  {% if block.type == 'image' %}
+      {% include 'custom-image' %}
+  {% elsif block.type == 'text' %}
+      {% include 'custom-text' %}
+  {% endif %}
+{% endfor %}
+
+{% schema %}
+  {
+  "name": "Content Blocks",
+    "blocks": [
+    {
+      "name": "Custom image",
+      "type": "image",
+      "settings": [{
+          "type": "color",
+          "id": "color",
+          "label": "Choose a Color"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Choose a Product"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Choose an Image"
+        }
+        ]
+      },
+        {
+          "name": "Custom Text",
+          "type": "text",
+          "settings": [{
+              "type": "text",
+              "id": "title",
+              "label": "Choose a Title"
+            },
+            {
+              "type": "richtext",
+              "id": "sub-title",
+              "label": "Choose a Sub-Title"
+  
+            }
+          ]
+        }
+    ]
+  }
+{% endschema %}

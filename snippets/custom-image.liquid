@@ -1,0 +1,17 @@
+<div class="page-width" style="background-color: {{ block.settings.color }};">
+    <div class="section-header text-center">
+        {% assign product = all_products[block.settings.product] %}
+        <h2>
+            {{ product.title }}
+        </h2>
+        <ul class="grid grid--uniform grid--view-items">
+                <li class="grid__item grid__item--collection small--one-half medium-up--one-quarter">
+                    <div class="grid-view-item product-card">
+                        <img loading="lazy" src="{{ block.settings.image | image_url }}"  width="200" height="auto"/>
+                        <p>{{ block.settings.block-text }}</p>
+                    </div>
+                </li>
+        </ul>
+    </div>
+</div>
+

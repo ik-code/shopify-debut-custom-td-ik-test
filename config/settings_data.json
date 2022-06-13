@@ -236,6 +236,37 @@
         "settings": {
           "title": "Title for this block"
         }
+      },
+      "165504748971ce49c4": {
+        "type": "gallery",
+        "blocks": {
+          "4f6f610f-35c1-48cc-9787-249c2526f537": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/collection-men-1.jpg"
+            }
+          },
+          "5f52341f-23e9-4dd1-bd90-a9d57f5404eb": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/collectin-men-2.jpg"
+            }
+          },
+          "755d4ed3-7da4-4678-af2b-83188bc2eb92": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/collection-men-3_37b62ff0-7815-4bfe-999d-4798a9c9ddc6.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "4f6f610f-35c1-48cc-9787-249c2526f537",
+          "5f52341f-23e9-4dd1-bd90-a9d57f5404eb",
+          "755d4ed3-7da4-4678-af2b-83188bc2eb92"
+        ],
+        "settings": {
+          "title": "My Custom Gallery Section"
+        }
       }
     },
     "content_for_index": [
@@ -247,7 +278,8 @@
       "quotes",
       "image-bar",
       "1654948376c98b4c7d",
-      "16550394805051cc61"
+      "16550394805051cc61",
+      "165504748971ce49c4"
     ]
   },
   "presets": {
